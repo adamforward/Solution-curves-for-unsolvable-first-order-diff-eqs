@@ -197,10 +197,10 @@ Keep repeating the above steps until the end of the expression isreached.
 The final result will be now left in the stack, display the same.
 convert the stack over to a vector of strings first, loop through it backwards 
 */
-vector<string> stackToVector(stack<string> penisVaginaBoob){ 
+vector<string> stackToVector(stack<string> stack){ 
   vector<string> a;
-  while(penisVaginaBoob.empty()==false){
-    a.push_back(penisVaginaBoob.top()); 
+  while(stack.empty()==false){
+    a.push_back(stack.top()); 
     penisVaginaBoob.pop(); 
   }
   return a; 
